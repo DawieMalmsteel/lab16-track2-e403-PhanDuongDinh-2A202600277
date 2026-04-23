@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-23T20:11:56.562626",
+    "endpoint": "http://34.160.187.207/v1",
+    "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "total_requests": 10,
+    "concurrency": 2,
+    "max_tokens": 256,
+    "benchmark_duration_sec": 115.78,
+    "fake_data_used": false
+  },
+  "model_info": {
+    "models": [
+      {
+        "name": "tinyllama.q4_k_m.gguf",
+        "model": "tinyllama.q4_k_m.gguf",
+        "modified_at": "",
+        "size": "",
+        "digest": "",
+        "type": "model",
+        "description": "",
+        "tags": [
+          ""
+        ],
+        "capabilities": [
+          "completion"
+        ],
+        "parameters": "",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "",
+          "families": [
+            ""
+          ],
+          "parameter_size": "",
+          "quantization_level": ""
+        }
+      }
+    ],
+    "object": "list",
+    "data": [
+      {
+        "id": "tinyllama.q4_k_m.gguf",
+        "aliases": [],
+        "tags": [],
+        "object": "model",
+        "created": 1776949800,
+        "owned_by": "llamacpp",
+        "meta": {
+          "vocab_type": 1,
+          "n_vocab": 32000,
+          "n_ctx_train": 2048,
+          "n_embd": 2048,
+          "n_params": 1100048384,
+          "size": 667078656
+        }
+      }
+    ]
+  },
+  "summary": {
+    "success_count": 10,
+    "failure_count": 0,
+    "success_rate": 1.0,
+    "latency_stats_ms": {
+      "avg_ms": 21910.07,
+      "min_ms": 9747.39,
+      "max_ms": 25224.22,
+      "p50_ms": 24662.51,
+      "p90_ms": null,
+      "p95_ms": null
+    },
+    "throughput": {
+      "requests_per_second": 0.09,
+      "tokens_per_second": 20.09,
+      "avg_tokens_per_request": 232.6
+    }
+  },
+  "detailed_requests": [
+    {
+      "prompt": "What is machine learning?",
+      "success": true,
+      "latency_ms": 25165.79,
+      "prompt_tokens": 22,
+      "completion_tokens": 256,
+      "error": null
+    },
+    {
+      "prompt": "Explain quantum computing briefly.",
+      "success": true,
+      "latency_ms": 25224.22,
+      "prompt_tokens": 23,
+      "completion_tokens": 256,
+      "error": null
+    },
+    {
+      "prompt": "Write a short poem about AI.",
+      "success": true,
+      "latency_ms": 19009.35,
+      "prompt_tokens": 25,
+      "completion_tokens": 194,
+      "error": null
+    },
+    {
+      "prompt": "What are the benefits of cloud computing?",
+      "success": true,
+      "latency_ms": 25073.58,
+      "prompt_tokens": 25,
+      "completion_tokens": 256,
+      "error": null
+    },
+    {
+      "prompt": "Summarize the theory of relativity.",
+      "success": true,
+      "latency_ms": 9747.39,
+      "prompt_tokens": 27,
+      "completion_tokens": 96,
+      "error": null
+    },
+    {
+      "prompt": "What is machine learning?",
+      "success": true,
+      "latency_ms": 23324.49,
+      "prompt_tokens": 22,
+      "completion_tokens": 244,
+      "error": null
+    },
+    {
+      "prompt": "Explain quantum computing briefly.",
+      "success": true,
+      "latency_ms": 24585.04,
+      "prompt_tokens": 23,
+      "completion_tokens": 256,
+      "error": null
+    },
+    {
+      "prompt": "Write a short poem about AI.",
+      "success": true,
+      "latency_ms": 24739.98,
+      "prompt_tokens": 25,
+      "completion_tokens": 256,
+      "error": null
+    },
+    {
+      "prompt": "What are the benefits of cloud computing?",
+      "success": true,
+      "latency_ms": 24823.22,
+      "prompt_tokens": 25,
+      "completion_tokens": 256,
+      "error": null
+    },
+    {
+      "prompt": "Summarize the theory of relativity.",
+      "success": true,
+      "latency_ms": 17407.63,
+      "prompt_tokens": 27,
+      "completion_tokens": 256,
+      "error": null
+    }
+  ]
+}
